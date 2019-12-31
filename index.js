@@ -8,7 +8,7 @@ const index = serveIndex("cogs", { icons: true })
 app.use("/", express.static("cogs"), index)
 
 
-app.listen(3000, function(err) {
+app.listen(process.env.PORT, function(err) {
     if(err) {
         console.error(err)
         process.exit(1)
