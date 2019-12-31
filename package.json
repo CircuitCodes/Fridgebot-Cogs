@@ -1,0 +1,14 @@
+{
+  "name": "fridgebot-cogs",
+  "version": "1.0.0",
+  "description": "A cog repository for FridgeBot.",
+  "main": "index.js",
+  "repository": "https://github.com/CircuitCodes/fridgebot-cogs",
+  "author": "CircuitRCAY",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1",
+    "serve-index": "^1.9.1"
+  }
+}
