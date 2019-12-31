@@ -5,7 +5,7 @@ var app = express()
 
 const index = serveIndex("cogs", { icons: true })
 
-app.use("/", express.static("cogs"), index)
+app.use("/repo", express.static("cogs"), index)
 
 
 app.listen(process.env.PORT, function(err) {
